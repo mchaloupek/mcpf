@@ -1,0 +1,12 @@
+{
+	"project_name": "set name here",
+	"project_slug": "sn",
+	"s3": {
+		"bucket": "test",
+		"region": "us-east-1"
+	},
+	"juicebox_enabled": true,
+	"cultures": [
+		"en"
+	]
+}

@@ -1,0 +1,1164 @@
+*{
+  box-sizing: border-box;
+  font-family: Helvetica;
+
+}
+
+html body{
+  width: 100%;
+  /*height: 100%;*/
+  margin: 0 auto;
+  /*overflow: hidden;*/
+
+}
+
+body{
+  background-color: #D9D9D9;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.logoImg{
+  width: 140px;
+
+}
+
+#whiteLogo{
+  width: 90px;
+
+}
+
+#flexEnder{
+  /*position: absolute;
+  right: 10px;*/
+  /*align-self: flex-end;*/
+
+}
+
+.logoBar {
+  width: 100%;
+  background: #343434;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+
+  /*padding: 20px;
+  margin: 0, 20px;*/
+
+}
+
+.innerLogo{
+  margin: auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  /*align-content: stretch;*/
+  flex-direction: row;
+  padding: 10px;
+  margin: 0, 20px;
+
+}
+
+.title{
+  font-size: 24px;
+
+}
+
+.space {
+  margin: 0 20px 0 5px;
+
+}
+
+.tagLine{
+    font-style: oblique;
+    /*align-self: stretch;*/
+    font-size: 16px;
+    /*align-self: flex-end;*/
+    /*margin-left: 7%;*/
+      margin-left: 20%;
+
+}
+
+@media (max-width: 1242px){
+  .tagLine{
+    font-size: 14px;
+    margin-left: 10%;
+  }
+
+}
+
+@media (max-width: 1080px){
+  .tagLine{
+    font-size: 12px;
+    margin-left: 5%;
+  }
+
+  .title{
+      font-size: 18px;
+  }
+
+}
+
+
+/*------*/
+
+.sticky{
+  position: fixed;
+  top: 0;
+}
+
+.menuBar {
+  width: 100%;
+  /*height: 40px;*/
+  background: #339DFF;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+
+  /*position: fixed;*/
+
+  overflow: hidden;
+
+  /*padding: 20px;
+  margin: 0, 20px;*/
+
+}
+
+.innerMenu{
+  display: flex;
+  justify-content: space-evenly;
+
+  margin: auto;
+  width: 70%;
+
+  flex-direction: row;
+
+}
+
+.innerMenuInner{
+  width: 20%;
+
+}
+
+.innerMenuInnerMenu{
+  margin: 0px;
+  text-align: center;
+
+}
+
+.hoverMenu{
+  padding: 20px;
+  /*margin: 0 20px 0 5px;*/
+}
+
+.hoverMenu:hover{
+  background-color: #0B7BE2;
+
+}
+
+.menuText{
+  font-size: 14px;
+  color: white;
+  margin: 0;
+
+}
+
+.menuText2{
+  font-size: 14px;
+  color: #F26A45;
+  margin: 0;
+
+}
+
+#menuA{
+  text-decoration: none;
+  margin: 0;
+
+}
+
+/*HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*HEADER BUTTON ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.buttonposition{
+  width: 70%;
+  margin: auto;
+  margin-top: 20%;
+
+}
+
+.headerButton {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+
+    border-radius: 4px;
+    width: 35%;
+
+    margin: auto;
+    /*margin-top: 20%;*/
+    /*font-size: 16px;*/
+    /*margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.buttonTop {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 4px solid #F26A45;
+    font-size: 24px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.buttonTop:hover {
+    background-color: #F26A45;
+    color: white;
+}
+
+
+/*HEADER BUTTON ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*CONTENT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#externalLink{
+  text-decoration: underline;
+  color: black;
+
+}
+
+#externalLink:hover{
+  text-decoration: underline;
+  color: #595959;
+
+}
+
+
+.headerImage{
+  background-image: url('../img/rehabCouple.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+.oldPeople{
+
+
+}
+
+/*.imgChanger{
+  background-color: #343434;
+  width: 100%;
+  height: 500px;
+
+  background-blend-mode: multiply;
+
+
+}*/
+
+#newsHover{
+  text-decoration: none;
+
+}
+
+#sponsorHover{
+  text-decoration: none;
+
+}
+
+.boxTitle:hover{
+  text-decoration: none;
+  color: #D8D9A8;
+
+}
+
+.containEvent{
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+.eventBox{
+    background-color: #339DFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 40px;
+    /*padding-top: 15px;*/
+    margin: auto;
+    width: 70%;
+    height: 250px;
+    overflow: hidden;
+
+}
+
+.boxTitle{
+    color: #FEFFCC;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.newsContent{
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+
+.picBox{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 70px;
+  padding-left: 40px;
+  width: 70%;
+
+}
+
+.midPic{
+  background-image: url('../img/golfCourse.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.imageTitle{
+  color: #F26A45;
+  font-size: 68px;
+  font-weight: 600;
+
+}
+
+#topMarg{
+  margin-top: 60px;
+
+}
+
+#noDeco{
+  text-decoration: none;
+
+}
+
+.imageContent{
+  color: #F26A45;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.imageContent:hover{
+  color: #AE3412;
+
+}
+
+
+
+.REEEE{
+  background-color: #339DFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 40px;
+  /*padding-top: 15px;*/
+  margin: auto;
+  width: 70%;
+  height: 250px;
+  overflow: hidden;
+
+}
+
+.innerSponsor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+
+}
+
+.inception{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.bSponsors{
+  font-size: .75em;
+  font-weight: bolder;
+  /*padding-left: 5%;*/
+
+}
+
+.pSponsors{
+  font-size: .75em;
+  margin: 2px 0px;
+  /*font-weight: bolder;*/
+  /*padding-left: 5%;*/
+
+}
+
+.sponsorImgHome{
+  width: 150px;
+
+}
+
+
+/*CONTENT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*CONTENT SCI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.headerImageSCI{
+  background-image: url('../img/spineGrandpa.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+.midPicSCI1{
+  background-image: url('../img/spineDoctor.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.contentContainer2{
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+  margin: auto;
+
+}
+
+.margTop{
+  margin-top: 60px;
+
+}
+
+.contentWrapper{
+
+}
+
+.petah{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+}
+
+#sensoryImg{
+  width:35%;
+  float: right;
+  /*margin-bottom: 60px;*/
+  margin-top: 40px;
+
+}
+
+.sectionContentSmall{
+  font-size: 13px;
+  margin-bottom: 60px;
+  width: 60%;
+  float: left;
+
+}
+
+.clear{
+  clear: both;
+}
+
+.midPicSCI2{
+  background-image: url('../img/xSpine.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.contentListContainer{
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+  margin: auto;
+  margin-bottom: 60px;
+
+}
+
+.contentHeadWrapper{
+
+
+}
+
+.contentHeadText{
+  font-size: 36px;
+  color: #339DFF;
+
+}
+
+.contentHeadText:hover{
+  color: #0B7BE2;
+
+}
+
+.secondaryHead{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+
+  margin: 5px 30px;
+
+}
+
+.secondaryHead:hover{
+  color: #505050;
+
+}
+
+.contentContainer{
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+  margin: auto;
+
+}
+
+
+.sectionHeader{
+  font-size: 26px;
+  color: #F26A45;
+  margin-bottom: 25px;
+  margin-top: 0px;
+
+}
+
+.sectionContent{
+  font-size: 13px;
+  margin-bottom: 60px;
+
+}
+
+.bolderBiggerSection{
+  font-weight: bold;
+  font-size: 18px;
+  color: #339DFF;
+
+}
+
+.boldSection{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.boldSectionG{
+  font-weight: bold;
+  font-size: 15px;
+  color: #343434;
+}
+
+.hr{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 60px;
+
+  height: 2px;
+  color: black;
+  background: black;
+
+}
+
+/*CONTENT SCI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*CONTENT MCPF { ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.headerImageMCPF{
+  background-image: url('../img/cured_edited.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+.midPicMCPF1{
+  background-image: url('../img/testTubes.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.midPicMCPF2{
+  background-image: url('../img/students.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.midPicMCPF3{
+  background-image: url('../img/talkers.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.midPicMCPF4{
+  background-image: url('../img/mcpfGolfMinn/eventSpeech.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+
+/*CONTENT MCPF ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ }*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+}
+
+#fakeButton{
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+
+}
+
+/*MODAL MODAL MODAL*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*MODAL MODAL MODAL*/
+
+#helper{
+  text-decoration: none;
+
+}
+
+.registerbutton {
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+
+    border-radius: 4px;
+    width: 40%;
+
+    margin: auto;
+    margin-bottom: 30px;
+    /*font-size: 16px;*/
+    /*margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.button3 {
+    background-color: #D9D9D9;
+    color: black;
+    border: 2px solid #F26A45;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button3:hover {
+    background-color: #F26A45;
+    color: white;
+}
+
+/*CONTENT NEWS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+.headerImageNews{
+  background-image: url('../img/neurons.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+.midPicNews{
+  background-image: url('../img/talkers.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+
+.containEventNews{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.newsBox{
+    background-color: #339DFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    /*padding-top: 15px;*/
+    margin: auto;
+    width: 70%;
+    /*height: 250px;*/
+    overflow: hidden;
+
+}
+
+.sectionContentWhite{
+  font-size: 13px;
+  /*margin-bottom: 60px;*/
+  color: white;
+
+}
+
+.mini{
+  font-size: 10px;
+  margin: 0;
+
+}
+
+/*CONTENT NEWS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.headerImageResources{
+  background-image: url('../img/headResource.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+#pdfLink{
+  color: #339DFF;
+
+}
+
+#pdfLink:hover{
+  color: #0B7BE2;
+
+}
+
+.midPicResources{
+  background-image: url('../img/compChair.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+
+/*HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.headerImageHelp{
+  background-image: url('../img/volunteer.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+.donorClub{
+
+
+}
+
+.midPicHelp{
+  background-image: url('../img/compChair.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.center{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.rowFlex{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+/*HELP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*EVENTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.headerImageEvents{
+  background-image: url('../img/mcpfGolfMinn/bannerChip.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 60px;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+.midPicEvents1{
+  background-image: url('../img/mcpfGolfMinn/aerialCarts.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+.midPicEvents2{
+  background-image: url('../img/mcpfGolfMinn/azGolf.jpg');
+  background-position: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+
+  background-color: #7B7B7B;
+  background-blend-mode: multiply;
+
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+
+  display: flex;
+
+}
+
+/*EVENTS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.headerImageVids{
+  background-image: url('../img/watchVid.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 60px;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+/*SPONSORS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.headerImageSponsors{
+  background-image: url('../img/handsIn.jpg');
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 60px;
+
+  background-color: rgb(99, 99, 99);
+  background-blend-mode: overlay;
+
+}
+
+/*SPONSORS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.footer_container{
+  width: 100%;
+  background-color: #343434;
+
+}
+
+.footFlex {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  max-width: 100%;
+  /*padding: 30px;*/
+  /*justify-content: flex-end;*/
+  /*width: 100%;*/
+  align-content: center;
+
+}
+
+.seal_container{
+  /*padding: 30px;*/
+  /*margin-right: 8%;*/
+}
+
+.containerFlex{
+display: flex;
+flex-direction: row;
+width: 60%;
+
+align-content: space-between;
+margin: auto;
+padding-top: 20px;
+
+}
+
+.actionFoot{
+  width: 100%;
+  margin-left: 10px;
+
+}
+
+#copyw{
+  text-align: center;
+  font-size: 10px;
+
+}
+
+#footP{
+
+}
+
+#footA{
+  color: #339DFF;
+  text-decoration: none;
+  font-size: .85em;
+  font-weight: bold;
+
+}
+
+#footA:hover{
+  color: #0B7BE2;
+  text-decoration: none;
+  font-size: .85em;
+  font-weight: bold;
+
+}
+
+#footHead{
+  color: #F26A45;
+  font-size: 1em;
+
+}
+
+/*FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
