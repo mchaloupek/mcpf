@@ -330,6 +330,13 @@ body{
 
 }
 
+.newsContent2{
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
 
 .picBox{
   display: flex;
@@ -1121,7 +1128,7 @@ input[type=submit]:hover {
 .containerFlex{
 display: flex;
 flex-direction: row;
-width: 60%;
+width: 70%;
 
 align-content: space-between;
 margin: auto;
