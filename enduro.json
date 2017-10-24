@@ -2,7 +2,7 @@
 	"project_name": "set name here",
 	"project_slug": "sn",
 	"s3": {
-		"bucket": "test",
+		"bucket": "mcpfchanges",
 		"region": "us-east-1"
 	},
 	"juicebox_enabled": true,
