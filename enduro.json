@@ -1,9 +1,9 @@
 {
-	"project_name": "set name here",
+	"project_name": "mcpf",
 	"project_slug": "sn",
 	"s3": {
-		"bucket": "mcpfchanges",
-		"region": "us-east-1"
+		"bucket": "mcpftestmarcus1",
+		"region": "us-west-1"
 	},
 	"juicebox_enabled": true,
 	"cultures": [

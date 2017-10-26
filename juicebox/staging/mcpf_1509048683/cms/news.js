@@ -29,11 +29,11 @@
 			published_on: 'Thursday, 19 October, 2017',
 			article: 'This is it',
 			$text_type: 'textarea',
-			text: 'Final Test',
+			text: 'Final test',
 			$published_on_value: '2017-10-19'
 		}
 	],
 	meta: {
-		last_edited: 1508876798
+		last_edited: 1508262434
 	}
 }
